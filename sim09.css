@@ -1,0 +1,150 @@
+/* -*- mode: html; mode: outline-minor; coding: utf-8 -*- */
+
+/* ================ 全体 ================ */
+
+/* ================ ヘッダ ================ */
+div#header div#tabbar {
+  width: 100%;
+  background-color: #cccccc;
+}
+
+div#header a {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  padding: 5px;
+  font-size: large; 
+}
+
+div#header a.activebtn {
+  background-color: #ffffff;
+}
+
+div.usualtab {
+  display: none;
+}
+
+div.activetab {
+  display: block;
+}
+
+/* ================ 第1タブ: スキルLv指定と検索 ================ */
+
+/* ---- 武器データ、耐性指定の部分 ---- */
+div#querytab span.querytab-heading {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 2.5em;
+}
+
+/* ---- スキルLv指定ペイン ---- */
+div#skillpane {
+  display: block;
+  font-size: small;
+}
+
+div#skillpane h4.querytab-heading {
+  display: inline-block;
+  font-weight: bold;
+}
+
+
+div#skillpane span {
+  display: inline-block;
+  white-space: nowrap;
+  width: 180px;
+}
+
+div#skillpane span.hide {
+  display: none;
+}
+
+div#skillpane select.hilite {
+  background-color: #ffffcc;
+}
+
+/* ---- 結果ペイン ---- */
+div#resultpane {
+  font-size: small; font
+}
+
+div#resultpane span.num {
+  display: inline-block;
+  width: 90px;
+  white-space: nowrap;
+}
+
+div#resultpane span.item {
+  display: inline-block;
+  width: 15%;
+  white-space: nowrap;
+}
+
+div#resultpane span.item-charm {
+  display: inline-block;
+  width: 10%;
+  white-space: nowrap;
+}
+
+
+div#resultpane select.hilite {
+  background-color: #ffffcc;
+}
+
+div#resultpane select.hilite0 {
+  background-color: #ffcccc;
+}
+
+div#resultpane div.bg {
+  background-color: #eeeeee
+}
+
+/* ================ 第2タブ: スキル指定欄表示一覧 ================ */
+div#skilltab {
+ font-size: small;
+}
+
+div#skilltab span {
+  font-size: small;
+  display: inline-block;
+  white-space: nowrap;
+  width: 150px;
+}
+
+/* ================ 第3タブ: 装飾品上限 ================ */
+div#decotab {
+ font-size: small;
+}
+
+div#decotab span {
+  display: inline-block; 
+  white-space: nowrap;
+}
+
+div#decotab select.hilite {
+  background-color: #ffffcc;
+}
+
+div#decotab select.hilite0 {
+  background-color: #ffcccc;
+}
+
+
+/* ================ 第4タブ: 除外装備一覧 ================ */
+div#excludetab {
+ font-size: small;
+}
+
+div#excludetab table div {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+div#excludetab div.hide {
+/*   display: none; */
+}
+
+div#excludetab td.head {
+  font-weight: bold;
+  width: 130px;
+}
